@@ -30,8 +30,8 @@ I have a very good knowledge of Microsoft Framework Tech (.Net)
     </div>
 
     <div className='my-4 block md:flex  items-center w-full md:w-[75%]'>
-    <a href="../assets/Eslam Tarek.pdf" download="Eslam_Tarek_CV.pdf" className='btn-primary hover:bg-black hover:text-white transition-all duration-300 block w-fit'>Downlaod cv <CiSaveDown2 className='inline' /></a>
-    <a href=""  className='btn-primary md:mx-4 block w-fit hover:bg-black hover:text-white transition-all duration-300'>Contact Me <CiHeadphones className='inline' /></a>
+    <a href="../assets/Eslam Tarek.pdf" download="Eslam_Tarek_CV.pdf" className='btn-primary  min-w-[150px] hover:bg-black hover:text-white transition-all duration-300 block w-fit'>Downlaod cv <CiSaveDown2 className='inline' /></a>
+    <a href=""  className='btn-primary min-w-[150px] md:mx-4 block w-fit hover:bg-black hover:text-white transition-all duration-300'>Contact Me <CiHeadphones className='inline' /></a>
     </div>
     </div>
 

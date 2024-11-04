@@ -2,13 +2,13 @@ import React from 'react'
 import { FaFacebook, FaLinkedin } from 'react-icons/fa'
 import { IoLogoGithub } from 'react-icons/io'
 import { MdKeyboardDoubleArrowUp } from 'react-icons/md'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll';
 
 export default function Footer() {
   return <>
   <section className='bg-black text-white py-10'>
  <div className='containerA flex flex-col justify-between items-center '>
- <Link to="" className='flex flex-col justify-center items-center '>
+ <Link to="home" smooth={true} duration={700} className='flex flex-col justify-center items-center '>
  <MdKeyboardDoubleArrowUp className='text-2xl arrow'/>
  <p className='my-2'>BACK TO TOP</p>
  </Link>
