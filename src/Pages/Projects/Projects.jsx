@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 
-// import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 export default function projects() {
     const projects = [

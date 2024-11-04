@@ -26,23 +26,9 @@
 	        animation: text-flicker-in-glow 4s linear both;
 }
 
-.swiper {
-  width: 50%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-}
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-}
+
 @-webkit-keyframes text-flicker-in-glow {
     0% {
       opacity: 0;
