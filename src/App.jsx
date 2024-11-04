@@ -1,20 +1,33 @@
-import { useState } from 'react';
+
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import Navbar from './Component/Navbar/Navbar';
 import Home from './Pages/home/Home';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'; // استيراد createBrowserRouter
+import Skills from './Pages/skills/Skills';
+import About from './Pages/About/About';
+import Footer from './Component/Footer/Footer';
+import Projects from './Pages/Projects/Projects';
+import Contact from './Pages/Contact/Contact';
+
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  // تعريف الروترات
-  const router = createBrowserRouter([
-    { path: "/", element: <Home /> }
-  ]);
+  
+  
+ 
 
   return (
     <>
-    
-      <RouterProvider router={router}></RouterProvider>
+     <BrowserRouter>
+     <Navbar/>
+     <Home/>
+     
+     <About/>
+     <Skills/>
+     <Projects/>
+     <Contact/>
+     <Footer/>
+    </BrowserRouter>
+   
     </>
   );
 }
