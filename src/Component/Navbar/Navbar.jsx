@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
-import { useLocation } from 'react-router-dom';
 import { Link } from 'react-scroll';
 
 export default function Navbar() {
   const [visible, setVisible] = useState(true);
 
-  const location = useLocation()
+ 
   const handleVisibility = () => {
     setVisible(!visible);
   };
