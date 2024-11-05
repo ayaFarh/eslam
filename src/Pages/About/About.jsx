@@ -4,6 +4,9 @@ import { FaPhoneAlt } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 export default function About() {
+
+
+
   return<>
    <section className='bg-gray-100 py-10 '>
     <div className='containerA'>
@@ -23,10 +26,15 @@ I have a very good knowledge of Microsoft Framework Tech (.Net)
     </p>
     
 
-    <div className='my-4 md:flex justify-between items-center w-full md:w-[75%]'>
-    <h3 className='text-lg font-bold'>Name:<span className='text-gray-500'> Eslam Tarek </span></h3>
-    <h3 className='text-lg font-bold'>Jop title:<span className='text-gray-500'> Fullstack web developer.Net </span></h3>
-      
+    <div className='my-2 md:flex justify-between items-center w-full md:w-[75%]'>
+    <h3 className='text-lg font-bold'>Name :<span className='text-gray-500'> Eslam Tarek </span></h3>
+    <h3 className='text-lg font-bold'>Jop title :<span className='text-gray-500'> Fullstack .NET Software Engineer. </span></h3>  
+    </div>
+
+    <div>
+      <h4 className='text-lg font-bold mb-2'>Education :</h4>
+      <p className='text-gray-500 font-bold'><span className='text-black'>1-</span> ministry of defence information systems institute 2015</p>
+      <p className='text-gray-500 font-bold'><span className='text-black'>2-</span> Web Developing Diploma from Russian Cultural Center 2016</p>
     </div>
 
     <div className='my-4 block md:flex  items-center w-full md:w-[75%]'>

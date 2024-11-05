@@ -8,7 +8,7 @@ export default function Footer() {
   return <>
   <section className='bg-black text-white py-10'>
  <div className='containerA flex flex-col justify-between items-center '>
- <Link to="home" smooth={true} duration={700} className='flex flex-col justify-center items-center '>
+ <Link to="home" smooth={true} duration={700} className='flex flex-col justify-center items-center cursor-pointer'>
  <MdKeyboardDoubleArrowUp className='text-2xl arrow'/>
  <p className='my-2'>BACK TO TOP</p>
  </Link>

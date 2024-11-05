@@ -11,9 +11,12 @@
     @apply px-4 py-2 bg-[#705C53] text-white mt-4 rounded
   } 
   
+ 
   .H3A{
     @apply px-4 py-2 rounded border-4 border-white w-fit m-auto
   }
+
+ 
 }
 
 
@@ -37,11 +40,15 @@ html {
 }
 
 
-
+.active{
+  background:#666;
+  color:black
+}
 
 .containerA{
     width: 90%;
     margin: 0 auto;
+    
 }
 .text-flicker-in-glow {
 	-webkit-animation: text-flicker-in-glow 4s linear both;
